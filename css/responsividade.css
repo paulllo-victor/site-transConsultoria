@@ -1,0 +1,207 @@
+@media screen and (max-width: 1220px){
+	.publicacoes-conteudo{
+	width: 95%;
+	}
+
+}
+@media screen and (max-width: 1100px){
+
+	.nossso-clientes h2{
+		margin-bottom: 50px;
+	}
+	.photo-advogado-transito{
+		width: 100%;
+		float: none;
+	}
+	.qualificacoes-advogado-transito{
+		width: 100%;
+		float: none;
+	}
+	.qualificacoes-advogado-transito h1{
+		margin-top: 20px;		
+		text-align: center;
+	}
+	.icones-redes-sociais{
+		text-align: center;
+		margin-top: 30px;
+	}
+	.author-testemunho img{
+		float: left;
+	}
+	.single-testemunho{
+		margin-top: 40px;
+		float: none;
+		width: 100%;
+	}
+	.single-testemunho p{
+		padding-top: 20px;
+	}
+	.author-testemunho img{
+		width: 10%;
+		border-radius: 50px;
+	}
+	.author-testemunho h2{		
+		margin-left: -3%;
+		font-size: 18px;
+		margin-top: 30px;
+		width: 80%;
+	}
+	.author-testemunho p{
+		margin-left: -3%;
+		margin-top: -20px;
+		font-size: 14px;
+		width: 80%;
+	}
+
+	.formulario{
+		background-image: url("../images/contatos.jpg");
+		background-size: 100% 100%;		
+		background-repeat: no-repeat;
+	}	
+
+}
+@media screen and (max-width: 900px){
+		header .menu-banner{
+		float: right;
+		text-align: center;
+	}
+	header .menu-banner ul{		
+		background-color: rgba(250,250,250,0.3);
+		width: 100%;
+		margin-top: 0;
+		position: absolute;
+		right: 0;
+		top: 90px;
+	}
+	header .menu-banner ul li{
+		padding:4px 0;
+		display: block;
+		list-style: none;
+		margin-left: 0;
+		font-size: 15px;
+	}
+	header .menu-banner ul li:hover{
+		background-color: #ccc;
+	}
+	header .menu-banner ul li a{
+		text-decoration: none;
+		color: #fff;
+		transition: 1s;
+	}
+	header .menu-banner ul li a:hover{
+		border: 0;
+		color: #000;
+	}
+	.button-mobile{
+		display: block;
+	}
+	header nav ul{
+		display: none;
+	}
+}
+@media screen and (max-width: 800px){
+
+	.banner{
+
+		background-image: url("../images/back-mobile.jpg");
+		background-size: auto 100%; 
+	}
+	.overlap .chamada{
+		margin-top: 35%;
+	}
+	.overlap .chamada h2{
+		font-size: 30px;
+	}
+	.areas-single{
+		margin-bottom: 10px;
+		float: none;
+		width: 99%;
+	}
+
+	.slick-slider img{	
+		margin: 0 auto;
+		width: 150px;
+		height: 150px;
+		border-radius: 125px;
+	}
+
+	.formulario{
+		background-size: auto 100%;		
+		background-position: center;
+	}
+	.input-formulario input[type=text],.input-formulario input[type=email] {
+		width: 80%;
+		height: 38px;
+		padding-left: 10px;
+		margin-bottom: 10px;
+		background-color: rgba(250,250,250,0.4);
+		border:1px solid #ccc;
+		color: #fff;
+	}
+	.input-formulario textarea{
+		background-color: rgba(250,250,250,0.4);
+		border:1px solid #ccc;
+		width: 80%;
+		padding-top: 10px;
+		padding-left: 10px;
+		height: 200px;
+		color: #fff;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 600px){
+
+	.overlap .chamada{
+		margin-top: 50%;
+	}
+	.title-sections  > p{
+		font-size: 13px;
+	}
+	.title-sections  > h2{
+		font-size: 32px;
+	}
+	.slick-slider img{	
+		margin: 0 auto;
+		width: 130px;
+		height: 130px;
+		border-radius: 75px;
+	}
+	.author-testemunho img{
+		width: 30%;
+	}
+	.author-testemunho h2{	
+		width: 60%;
+	}
+	.author-testemunho p{
+		width: 60%;
+	}
+	.img-conteudo{
+		text-align: center;
+		float: none;
+	}
+
+	.publicacoes-conteudo{
+		text-align: center;
+		float: none;
+	}
+	.sinle-publicacoes{
+		padding: 40px 0;
+	}
+}
+@media screen and (max-width: 400px){
+	.overlap .chamada{
+		margin-top: 60%;
+	}
+	.overlap{
+		height: 91vh;
+	}
+	.banner{
+			height: 91vh;
+	}
+	.slick-slider img{	
+		margin: 0 auto;
+		width: 110px;
+		height: 110px;
+		border-radius: 55px;
+	}
+}

@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+.center{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+/*Cabecalho menu*/
+header{
+	padding: 0 2%;
+	position: relative;
+	background-color: transparent;
+	z-index: 3;
+}
+header .logo img{	
+	margin-top: 40px;
+	float: left;	
+	width: 220px;	
+}
+header .menu-banner{
+	float: right;
+}
+header .menu-banner ul{
+	margin-top: 50px;
+}
+header .menu-banner ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+	font-size: 15px;
+}
+header .menu-banner ul li a{
+	text-decoration: none;
+	color: #fff;
+	transition: 1s;
+}
+header .menu-banner ul li a:hover{
+	padding-bottom: 5px;
+	border-bottom:4px solid #55b4d4;
+	color: #55b4d4;
+}
+/***/
+/*Banner*/
+.cartaz{
+	display: block;
+}
+.overlap{
+	padding-bottom: 50px;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 110vh;
+	max-height:1000px;
+	position: absolute;
+	top: 0;
+	z-index: 2;	
+	text-align: center;
+}
+.banner{
+	background-size: auto 100%; 
+	width: 100%;
+	height: 110vh;
+	max-height: 1000px;
+	background-image: url("../images/carros-av.jpg");
+	background-size: 100% auto;
+	background-position: center;
+	background-attachment: fixed;
+}
+.overlap .chamada{
+	display: inline-block;
+	width: 80%;
+	margin-top: 260px;
+	color: #fff;
+}
+.overlap .chamada h2{
+	margin-bottom: 20px;
+	font-size: 45px;
+	font-weight: 400;
+}
+.overlap .chamada p{
+	margin-bottom: 20px;
+	font-weight: 400;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+.overlap .chamada input[type=submit]{
+	padding: 15px 40px;
+	background-color: transparent;
+	border:1px solid #fff;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #fff;
+	transition: background-color 1s;
+}
+.overlap .chamada input[type=submit]:focus{
+	outline: 0;
+}
+.overlap .chamada input[type=submit]:hover{
+	background-color: #55b4d4;
+}
+/***/
+/*Areas de atuacao*/
+.area-atuacao{
+	width: 100%;
+	background-color: #F8F9F9;
+	padding: 50px 2%;
+	text-align: center;
+}
+.title-sections{
+	text-transform: uppercase;
+}
+.title-sections > p{
+	color: #aaaaaa;
+}
+.title-sections > h2{
+	color: #384492;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+.areas-single{
+	display: inline-block;
+	padding: 40px 2%;
+	float: left;
+	width: calc((95% / 3));
+	height: auto;
+	text-align: center;
+	background-color: #fff;
+	margin-right: 2.5%;
+	transition: box-shadow 0.5s;
+}
+.areas-single:nth-of-type(3){
+	margin-right: 0;
+}
+.areas-single:hover{
+	box-shadow: 10px 5px 5px #ccc;
+}
+.areas-single > img{
+	margin-bottom: 10px;
+	width: 100px;
+}
+.areas-single > h2{
+	font-weight: 400;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.areas-single > p{	
+	text-align: justify;
+	font-size: 15px;
+	color: #777777;
+}
+.input{
+	margin-top: 50px;
+}
+.input input[type=submit]{
+	padding: 15px 35px;
+	border: 1px solid #9e7300;
+	border-radius: 10px;
+	color: #9e7300;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #fff;
+	cursor: pointer;
+}
+.input input[type=submit]:hover{
+	background-color: #9e7300;
+	color: #fff;
+}
+.input input[type=submit]:focus{
+	outline: 0;
+}
+.button-mobile{
+	margin-top: 40px;
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+	background-image: url("../images/icones/open-menu.png");
+	display: none;
+	cursor: pointer;
+}
+/***/
+/*Sessao nossos clientes*/
+.nossso-clientes{
+	padding: 40px 2%;
+	text-align: center;
+	background-color: #EEEEEE;
+}
+.nossso-clientes h2{
+	margin-bottom: 70px;
+}
+.slick-slider{
+	text-align: center;
+	padding: 0 2%;
+}
+.slick-slider img{	
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+}
+/***/
+/*Quem somos*/
+.quem-somos{
+	padding: 40px 2%;
+	text-align: center;
+	background-color: #F8F9F9;
+}
+.photo-advogado-transito{
+	width: 40%;
+	float: left;
+}
+.qualificacoes-advogado-transito{
+	text-align: left;
+	width: 60%;
+	float: left;
+}
+.photo-advogado-transito, .qualificacoes-advogado-transito{
+	padding: 0 2%;
+	margin-top: 10px;
+}
+.qualificacoes-advogado-transito h1{
+	margin-bottom: 20px;
+}
+.qualificacoes-advogado-transito p{
+	font-weight: 300;
+	line-height: 23px;
+	text-align: justify;
+	text-indent: 30px;
+	margin-bottom: 25px; 
+}
+.qualificacoes-advogado-transito ul li{
+	list-style-position: inside;
+	line-height: 23px;
+	font-weight: 300;
+}
+.icones-redes-sociais{
+	text-align: center;
+	margin-top: 10px;
+}
+.icones-redes-sociais a{
+	margin: 0 5px;
+}
+/***/
+/*Testemunhos*/
+.container-testemunho{
+	padding: 80px 2%;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+.single-testemunho > img{
+	float: left;
+	margin-right: 10px;
+}
+.author-testemunho img{
+	float: left;
+	margin-right: 5%;
+}
+.single-testemunho{
+	padding: 0 2%;
+	float: left;
+	width: calc(100% / 3);
+	text-align: justify;
+}
+.single-testemunho p{
+	padding-top: 10px;
+}
+.author-testemunho img{
+	width: 20%;
+	margin-top: 20px;
+	border-radius: 40px;
+}
+.author-testemunho h2{
+	font-size: 18px;
+	margin-top: 20px;
+	float: left;
+	width: 60%;
+}
+.author-testemunho p{
+	margin-top: -10px;
+	font-size: 14px;
+	float: left;
+	width: 60%;
+} 
+/***/
+/*Publicacoes*/
+.publicacoes{
+	width: 100%;
+	padding: 40px 2%;
+	text-align: center;	
+	background-color: #F8F9F9;
+}
+.container-publicacoes{
+	margin-top: 60px;
+}
+.sinle-publicacoes{
+	padding: 20px 0;
+	border-top: 1px solid #ccc;
+}
+.sinle-publicacoes:nth-of-type(4){
+	border-bottom: 1px solid #ccc;
+}
+.img-conteudo{
+	margin-left: 2%;
+	float: left;
+}
+.img-conteudo img{
+	width: 300px;
+	border-radius: 30px;
+}
+.publicacoes-conteudo{
+	padding-top: 20px;
+	width: 70%;
+	text-align: left;
+	float: left;
+	margin-left: 2%;
+}
+.publicacoes-conteudo h3{
+	color: #9e7300;
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.publicacoes-conteudo h1{	
+	color: #384492;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.publicacoes-conteudo p{
+	font-size: 15px;
+	text-align: justify;
+}
+/***/
+/*Fomulario de contato*/
+.overlap-formulario{
+	background-color: #fff;
+}
+.formulario{
+	background-image: url("../images/contatos.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+.container-formulario{
+	height: 620px;
+	padding: 40px 2%;
+	text-align: center;
+}
+.container-formulario .title-sections h2{
+	margin-bottom: 10px;
+	color: #fff;
+}
+.container-formulario .title-sections p{
+	margin-bottom: 5px;
+	color: #ccc;
+}
+/***/
+/*Formulario contatos*/
+.input-formulario{
+	margin-top: 20px;
+}
+.input-formulario input[type=text],.input-formulario input[type=email] {
+	width: 50%;
+	height: 38px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(250,250,250,0.4);
+	border:1px solid #ccc;
+	color: #fff;
+}
+.input-formulario textarea{
+	background-color: rgba(250,250,250,0.4);
+	border:1px solid #ccc;
+	width: 50%;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 200px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.input-formulario ::placeholder{
+	color: #fff;
+}
+.input-formulario textarea ::placeholder{
+	color: #fff;
+}
+.input-formulario  input[type=text]:focus ,.input-formulario input[type=email]:focus, .input-formulario textarea:focus{
+	outline: 0;
+}
+.input-formulario .input{
+	margin-top: 0;
+}
+.input-formulario span{
+	display: block;
+	color: #fff;
+	padding-bottom: 10px;
+}
+/***/
+/*Whatsapp*/
+.container-whatsapp{
+	padding: 40px 2%;
+	background-color: #000;
+	text-align: center;
+}
+.container-whatsapp h2{
+	color: #fff;
+}
+.container-whatsapp li{
+	margin-top: 10px;
+	color: #fff;
+	list-style-position: inside;
+}
+.container-whatsapp li a{
+	color: #91eda9;
+	text-decoration: none;
+}
+.container-whatsapp li a:hover{
+	color: #3fe09a;
+	text-decoration: underline;
+}
+/***/
+/*Rodape*/
+.rodape{
+	background-color: #222222;
+	padding: 40px 2%;
+	color: #fff;
+	text-align: center;
+}
+.conteudo-rodape p:nth-of-type(1){
+	margin-bottom: 10px;
+}
+.conteudo-rodape p a{
+	color: #55b4d4;
+	text-decoration: none;
+}
+.conteudo-rodape p a:hover{
+	color: #61edff;
+	text-decoration: underline;
+}
+/***/
